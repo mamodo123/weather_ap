@@ -25,13 +25,22 @@
         "permissions": [
           "ACCESS_FINE_LOCATION"
         ]
-      }
+      },
+      "package": "com.mamodo123.WeatherApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7ef13c5f-e0bb-4bfa-bd64-fd2c721960dd"
+      }
+    }
   }
 }
